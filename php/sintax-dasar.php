@@ -84,3 +84,8 @@ function cetak($teks)
 }
 cetak("Hello World");
 echo "<br>";
+
+//array
+$buah = array("Apel", "Jeruk", "Mangga");
+$buah1 = ["Apel", "Jeruk", "Mangga"];
+echo $buah[1];
